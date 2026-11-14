@@ -54,6 +54,7 @@ Use **Importar CSV** e selecione um arquivo no dispositivo. O conteúdo é lido 
 
 - `AGENTS.md`: orientações de desenvolvimento do projeto.
 - `public/index.html`: conteúdo e controles do dashboard.
+- `public/logo-nunesflavio-dev.svg`: logotipo vetorial da marca.
 - `public/styles.css`: aparência responsiva.
 - `public/script.js`: dados demonstrativos incorporados, leitura/validação de CSV, filtros, cálculos, gráficos, tabela e exportação.
 - `public/dados-exemplo.csv`: base fictícia usada na demonstração.

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="72" viewBox="0 0 480 72" fill="none" role="img" aria-labelledby="titulo-logo descricao-logo">
+  <title id="titulo-logo">NunesFlavio Dev</title>
+  <desc id="descricao-logo">Logotipo NunesFlavio Dev com monograma N e símbolo de código.</desc>
+  <defs>
+    <linearGradient id="fundo-marca" x1="4" y1="4" x2="66" y2="66" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#214D83"/>
+      <stop offset="1" stop-color="#163652"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="68" height="68" rx="20" fill="url(#fundo-marca)" stroke="#4775A8" stroke-width="2"/>
+  <path d="M17 51V21L43 51V21" stroke="#F0F6FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49 28L57 36L49 44" stroke="#65D3AE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="88" y="46" fill="#F4F8FD" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="-1.4">NunesFlavio <tspan fill="#70D7B5">Dev</tspan></text>
+</svg>

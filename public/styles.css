@@ -40,10 +40,10 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .page-shell { width: min(1320px, calc(100% - 64px)); margin: 0 auto; padding: 40px 0 24px; }
 .hero { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; margin-bottom: 25px; }
 .hero-copy { max-width: 740px; }
-.eyebrow, .section-kicker { margin: 0 0 8px; color: var(--blue); font-size: 10px; font-weight: 700; letter-spacing: .13em; }
-.eyebrow { display: flex; align-items: center; gap: 8px; }
-.hero .eyebrow { color: #9cbee9; }
-.eyebrow-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 4px rgba(16, 151, 111, .1); }
+.section-kicker { margin: 0 0 8px; color: var(--blue); font-size: 10px; font-weight: 700; letter-spacing: .13em; }
+.brand-lockup { display: grid; justify-items: start; gap: 5px; margin-bottom: 18px; }
+.brand-logo { display: block; width: min(100%, 410px); height: auto; }
+.brand-subtitle { margin: 0; color: #9cbee9; font-size: 10px; font-weight: 700; letter-spacing: .13em; }
 h1, h2, p { margin-top: 0; }
 h1, h2, .metric-value { font-family: 'Manrope', 'Segoe UI', sans-serif; }
 h1 { margin-bottom: 9px; font-size: clamp(30px, 4vw, 39px); line-height: 1.15; letter-spacing: -.045em; font-weight: 800; }
@@ -159,7 +159,9 @@ td.numeric { text-align: right; font-variant-numeric: tabular-nums; }
 .table-empty { display: flex; min-height: 200px; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: #78899a; font-size: 11px; text-align: center; }
 .table-empty strong { color: #394f66; font-size: 13px; }
 .empty-mark { color: #9db2c9; font-size: 28px; line-height: 1; }
-.page-footer { display: flex; justify-content: space-between; gap: 14px; padding: 16px 2px 0; color: #aab7c8; font-size: 10px; }
+.page-footer { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 16px 2px 0; color: #aab7c8; font-size: 10px; }
+.page-footer strong { color: #e7eef8; font-weight: 600; }
+.footer-year { color: #e7eef8; font-weight: 700; font-variant-numeric: tabular-nums; }
 
 @media (max-width: 900px) {
   .page-shell { width: min(100% - 40px, 760px); padding-top: 30px; }
@@ -177,7 +179,7 @@ td.numeric { text-align: right; font-variant-numeric: tabular-nums; }
   .page-shell { width: calc(100% - 28px); padding: 23px 0 18px; }
   h1 { font-size: 30px; }
   .hero-description { font-size: 13px; }
-  .eyebrow { font-size: 9px; }
+  .brand-subtitle { font-size: 9px; }
   .hero-action { gap: 8px; }
   .demo-pill { font-size: 10px; }
   .button { min-height: 38px; padding: 0 10px; font-size: 11px; }
@@ -212,7 +214,7 @@ td.numeric { text-align: right; font-variant-numeric: tabular-nums; }
   .search-box { width: auto; flex: 1; }
   .table-meta { font-size: 9px; }
   th, td { padding: 10px 9px; font-size: 10px; }
-  .page-footer { flex-direction: column; gap: 6px; font-size: 9px; }
+  .page-footer { align-items: flex-start; flex-direction: column; gap: 6px; font-size: 9px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
